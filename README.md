@@ -216,29 +216,6 @@ Found a bug? Want to add a driver? Pull requests are welcome!
 
 ---
 
-## 🛠️ What's Next?
-
-**For Beginners:**
-1. Try the **blinky example**
-2. Read through a driver header file
-3. Modify an example to add your own feature
-
-**For Advanced Users:**
-1. Write a custom driver following the template
-2. Contribute to the project
-3. Adapt drivers for new microcontroller families
-
----
-
-## 🧩 Future Additions
-
-- **SPI and I2C drivers** — communicate with sensors
-- **Enhanced scheduler** — advanced timing modes
-- **Unit tests** — verify code works correctly
-- **More examples** — practical real-world projects
-
----
-
 ## 📜 License
 
 MIT License © 2025  
