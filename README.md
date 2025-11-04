@@ -164,21 +164,6 @@ This keeps your configuration in one place and makes driver updates easy.
 
 ---
 
-## 🏗️ Project Organization
-
-```
-my_project/
-├─ external/
-│  └─ embedded-drivers/        ← Library code
-├─ src/
-│  └─ main.c                   ← Your code
-├─ inc/
-│  └─ config.h                 ← Your settings
-└─ CMakeLists.txt              ← Build instructions
-```
-
----
-
 ## 📖 Naming Conventions (Easy Reference)
 
 To keep things consistent and readable:
