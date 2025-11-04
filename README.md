@@ -133,21 +133,6 @@ That's a complete blinking LED program!
 
 ---
 
-## Real Examples
-
-Ready-to-run example projects are included:
-
-| Example | What It Shows | Best For |
-|---------|---------------|----------|
-| **blinky/** | LED blinking | First-time setup test |
-| **uart_echo/** | Serial communication | Debug output, testing |
-| **scheduler_demo/** | Running multiple tasks | Learning timing concepts |
-| **matrix_display/** | Animated LED patterns | Display control |
-
-Try the **blinky** example first — it's the simplest way to verify everything works!
-
----
-
 ## ⚙️ Customizing Drivers
 
 Most drivers have a `_config.h` file where you can adjust settings **without changing the driver code**.
@@ -161,20 +146,6 @@ Most drivers have a `_config.h` file where you can adjust settings **without cha
 ```
 
 This keeps your configuration in one place and makes driver updates easy.
-
----
-
-## 📖 Naming Conventions (Easy Reference)
-
-To keep things consistent and readable:
-
-| Type | Format | Example |
-|------|--------|---------|
-| Functions | `yourlib_module_action()` | `yourlib_gpio_init()` |
-| Constants | `YOURLIB_UPPERCASE_NAME` | `YOURLIB_GPIO_OUTPUT` |
-| Config files | `module_config.h` | `gpio_config.h` |
-
-This naming makes it easy to spot library code in your project.
 
 ---
 
